@@ -1,0 +1,52 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/background.jpg);
+}
+
+.login-container {
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.login-left {
+    background-color: #003366;
+    color: white;
+    padding: 40px 30px;
+    flex: 1;
+    min-width: 300px;
+}
+
+.login-right {
+    background-color: white;
+    padding: 40px 30px;
+    flex: 1;
+    min-width: 300px;
+}
+
+.social-icons a {
+    color: white;
+    margin-right: 15px;
+    font-size: 24px;
+}
+
+.btn-primary {
+    background-color: #001f4d;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #003366;
+}
+
+#loginfacemsg{
+    padding-left: 10px;
+    padding-top: 120px;
+}
